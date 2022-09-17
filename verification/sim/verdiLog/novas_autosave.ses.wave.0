@@ -1,0 +1,138 @@
+Magic 271485
+Revision Verdi_O-2018.09-SP2
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 27 2492 745 393 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/rlk/UVM_Practice/ZAP_test/verification/sim/tb.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 1860506.009010 2713168.990835
+cursor 2170000.000000
+marker 210000.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+userMarker 2170000 if_back ID_ORANGE5 long_dashed
+userMarker 2070000 LOAD ID_ORANGE5 long_dashed
+
+; visible top row signal index
+top 0
+; marker line index
+markerPos 7
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByValue
+
+
+aliasmapname zap_cache_fsm.state_ff
+nalias UNCACHEABLE_PREPARE		3'b010		NULL
+nalias CLEAN_SINGLE		3'b011		NULL
+nalias CLEAN		3'b110		NULL
+nalias IDLE		3'b000		NULL
+nalias FETCH_SINGLE		3'b100		NULL
+nalias UNCACHEABLE		3'b001		NULL
+nalias INVALIDATE		3'b101		NULL
+
+addGroup "G1"
+addGroup "G2"
+activeDirFile "" "/home/rlk/UVM_Practice/ZAP_test/verification/sim/tb.fsdb"
+addSignal -h 15 /top_tb/u_zap_top/u_zap_core/u_zap_fetch_main/i_clk
+addSignal -h 15 -holdScope i_reset
+addGroup "G3"
+addSignal -h 15 -UNSIGNED -HEX /top_tb/u_zap_top/u_zap_core/u_zap_fetch_main/i_instruction[31:0]
+addSignal -h 15 /top_tb/u_zap_top/u_zap_wb_adapter/i_wb_dat[31:0]
+addSignal -h 15 /top_tb/U_MODEL_RAM_DATA/i_wb_adr[31:0]
+addSignal -h 15 /BLANK
+addSignal -h 15 /top_tb/u_zap_top/u_zap_core/u_zap_fetch_main/i_pc_ff[31:0]
+addSignal -h 15 -holdScope i_code_stall
+addGroup "G4"
+addSignal -h 15 /top_tb/u_zap_top/u_zap_core/i_instr_wb_ack
+addSignal -h 15 -UNSIGNED -HEX /top_tb/u_zap_top/u_zap_core/u_zap_fetch_main/i_instruction[31:0]
+addSignal -h 15 -holdScope o_instruction[31:0]
+addGroup "G5"
+addGroup "G6"
+addSignal -h 15 /top_tb/u_zap_top/u_zap_core/o_instr_wb_adr[31:0]
+addSignal -h 15 -holdScope o_instr_wb_cyc
+addSignal -h 15 -holdScope o_instr_wb_stb
+addSignal -h 15 -holdScope o_instr_wb_we
+addGroup "G7"
+addSignal -h 15 /top_tb/u_zap_top/u_code_cache/u_zap_cache_fsm/i_wb_ack
+addSignal -h 15 -UNSIGNED -HEX -holdScope i_phy_addr[31:0]
+addSignal -h 15 /BLANK
+addSignal -h 15 -holdScope BLANK
+addSignal -h 15 -UNSIGNED -HEX /top_tb/u_zap_top/u_code_cache/u_zap_cache_fsm/state_ff[2:0]
+addGroup "G8"
+addSignal -h 15 /top_tb/u_zap_top/u_code_cache/i_wb_ack
+addSignal -h 15 /top_tb/u_zap_top/u_zap_wb_adapter/ack_ff
+addSignal -h 15 -holdScope i_wb_ack
+addSignal -h 15 /top_tb/data_wb_ack_ram
+addSignal -h 15 /top_tb/U_MODEL_RAM_DATA/i_wb_cyc
+addSignal -h 15 -holdScope i_wb_stb
+addSignal -h 15 /top_tb/data_wb_cyc
+addSignal -h 15 -holdScope data_wb_stb
+addSignal -h 15 /top_tb/u_zap_top/u_zap_wb_adapter/w_emp
+addSignal -h 15 /top_tb/u_zap_top/u_zap_wb_adapter/U_STORE_FIFO/empty
+addSignal -h 15 -holdScope rptr_nxt[5:0]
+addSignal -h 15 -holdScope wptr_nxt[5:0]
+addSignal -h 15 -holdScope i_wr_en
+addSignal -h 15 /top_tb/u_zap_top/u_zap_wb_adapter/fsm_write_en
+addSignal -h 15 /top_tb/u_zap_top/u_zap_wb_adapter/U_STORE_FIFO/i_wr_en
+addSignal -h 15 /top_tb/u_zap_top/u_zap_wb_adapter/fsm_write_en
+addSignal -h 15 -holdScope w_full
+addSignal -h 15 -holdScope state_ff[2:0]
+addSignal -h 15 -holdScope state_nxt[2:0]
+addSignal -h 15 -holdScope I_WB_STB
+addSignal -h 15 -holdScope I_WB_CYC
+addSignal -h 15 /top_tb/u_zap_top/u_zap_wb_merger/o_wb_stb
+addSignal -h 15 -holdScope i_c_wb_stb
+addSignal -h 15 /top_tb/u_zap_top/u_code_cache/wb_stb[2:0]
+addSignal -h 15 -holdScope wb_cyc[2:0]
+addSignal -h 15 -UNSIGNED -HEX /top_tb/u_zap_top/u_code_cache/u_zap_cache_fsm/state_ff[2:0]
+addSignal -h 15 -holdScope i_rd
+addSignal -h 15 /top_tb/u_zap_top/u_zap_core/u_zap_writeback/pc_del3_ff[32:0]
+addSignal -h 15 /BLANK
+addGroup "G9"
+addSignal -h 15 /top_tb/u_zap_top/u_zap_core/u_zap_predecode/u_zap_uop_sequencer/o_stall_from_decode
+addSignal -h 15 /top_tb/u_zap_top/u_zap_core/u_zap_decode_main/u_zap_decode/i_instruction_valid
+addSignal -h 15 -holdScope o_mem_load
+addSignal -h 15 -holdScope o_mem_store
+addSignal -h 15 -UNSIGNED -HEX -holdScope i_instruction[35:0]
+addGroup "G10"
+addSignal -h 15 /top_tb/u_zap_top/u_zap_core/u_zap_issue_main/i_mem_load_ff
+addSignal -h 15 -holdScope i_mem_store_ff
+addGroup "G11"
+addSignal -h 15 /top_tb/u_zap_top/u_zap_core/u_zap_decode_main/u_zap_decode/o_mem_load
+addSignal -h 15 /top_tb/u_zap_top/u_zap_core/u_zap_issue_main/i_mem_load_ff
+addSignal -h 15 -holdScope i_pc_ff[31:0]
+addSignal -h 15 -holdScope skid_mem_load_ff
+addSignal -h 15 -holdScope o_mem_load_ff
+addSignal -h 15 /BLANK
+addGroup "G12"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

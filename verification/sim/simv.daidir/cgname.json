@@ -1,0 +1,182 @@
+{
+    "zap_writeback": [
+        "zap_writeback",
+        "JgkIG",
+        "module",
+        23
+    ],
+    "_vcs_DPI_package": [
+        "_vcs_DPI_package",
+        "uM9F1",
+        "module",
+        1
+    ],
+    "zap_wb_merger": [
+        "zap_wb_merger",
+        "M17GI",
+        "module",
+        22
+    ],
+    "_vcs_unit__1412389283": [
+        "_vcs_unit__1412389283",
+        "qTIWN",
+        "module",
+        3
+    ],
+    "zap_cache": [
+        "zap_cache",
+        "jf4bU",
+        "module",
+        7
+    ],
+    "uvm_pkg": [
+        "uvm_pkg",
+        "zr7M1",
+        "module",
+        5
+    ],
+    "zap_alu_main": [
+        "zap_alu_main",
+        "j0bA3",
+        "module",
+        6
+    ],
+    "zap_fetch_main": [
+        "zap_fetch_main",
+        "vbTwU",
+        "module",
+        14
+    ],
+    "zap_thumb_decoder_main": [
+        "zap_thumb_decoder_main",
+        "be60F",
+        "module",
+        19
+    ],
+    "vcs_paramclassrepository": [
+        "vcs_paramclassrepository",
+        "hEeZs",
+        "module",
+        2
+    ],
+    "vic": [
+        "vic",
+        "fFF1w",
+        "module",
+        29
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        4
+    ],
+    "zap_decompile": [
+        "zap_decompile",
+        "cKYim",
+        "module",
+        12
+    ],
+    "top_tb": [
+        "top_tb",
+        "W0eJz",
+        "module",
+        27
+    ],
+    "zap_cache_tag_ram": [
+        "zap_cache_tag_ram",
+        "FPVWI",
+        "module",
+        8
+    ],
+    "zap_cp15_cb": [
+        "zap_cp15_cb",
+        "SwmWF",
+        "module",
+        9
+    ],
+    "zap_dcache": [
+        "zap_dcache",
+        "KvzrY",
+        "module",
+        10
+    ],
+    "uart_debug_if": [
+        "uart_debug_if",
+        "Ic705",
+        "module",
+        24
+    ],
+    "zap_decode_main": [
+        "zap_decode_main",
+        "guTks",
+        "module",
+        11
+    ],
+    "zap_dual_rank_synchronizer": [
+        "zap_dual_rank_synchronizer",
+        "Fkf5Q",
+        "module",
+        13
+    ],
+    "zap_issue_main": [
+        "zap_issue_main",
+        "CTdCc",
+        "module",
+        15
+    ],
+    "zap_memory_main": [
+        "zap_memory_main",
+        "cnzPt",
+        "module",
+        16
+    ],
+    "zap_postalu_main": [
+        "zap_postalu_main",
+        "wWp37",
+        "module",
+        17
+    ],
+    "zap_shifter_main": [
+        "zap_shifter_main",
+        "U63Kp",
+        "module",
+        18
+    ],
+    "zap_tlb_0000": [
+        "zap_tlb_0000",
+        "uDb8W",
+        "module",
+        20
+    ],
+    "zap_wb_adapter": [
+        "zap_wb_adapter",
+        "fd4ti",
+        "module",
+        21
+    ],
+    "uart_top": [
+        "uart_top",
+        "INsae",
+        "module",
+        25
+    ],
+    "model_ram_dual": [
+        "model_ram_dual",
+        "a1sZ7",
+        "module",
+        26
+    ],
+    "timer": [
+        "timer",
+        "t5sdY",
+        "module",
+        28
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        30
+    ]
+}

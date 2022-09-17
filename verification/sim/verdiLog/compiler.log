@@ -1,0 +1,318 @@
+*design* DebussyLib (btIdent Verdi_O-2018.09-SP2)
+Command arguments:
+    +define+verilog
+    -sv
+    -f file_list.f
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_defines.svh
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_localparams.svh
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_functions.svh
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_adder.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_alu_main.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_btb.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_cache_fsm.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_cache.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_cache_tag_ram.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_core.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_cp15_cb.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_dcache_fsm.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_dcache.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_decode_main.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_decode.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_decompile.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_dual_rank_synchronizer.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_fetch_main.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_fifo.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_issue_main.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_mem_inv_block.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_memory_main.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_postalu_main.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_predecode_coproc.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_predecode_main.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_predecode_uop_sequencer.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_ram_simple_ben.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_ram_simple_nopipe.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_ram_simple.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_register_file.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_shifter_main.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_shifter_multiply.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_shifter_shift.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_sync_fifo.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_thumb_decoder_main.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_thumb_decoder.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_tlb_check.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_tlb_fsm.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_tlb.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_wb_adapter.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_wb_merger.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_writeback.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/zap_top.sv
+        /home/rlk/UVM_Practice/ZAP_test/rtl/uart16550/rtl/uart_defines.v
+        /home/rlk/UVM_Practice/ZAP_test/rtl/uart16550/rtl/raminfr.v
+        /home/rlk/UVM_Practice/ZAP_test/rtl/uart16550/rtl/uart_debug_if.v
+        /home/rlk/UVM_Practice/ZAP_test/rtl/uart16550/rtl/uart_receiver.v
+        /home/rlk/UVM_Practice/ZAP_test/rtl/uart16550/rtl/uart_regs.v
+        /home/rlk/UVM_Practice/ZAP_test/rtl/uart16550/rtl/uart_rfifo.v
+        /home/rlk/UVM_Practice/ZAP_test/rtl/uart16550/rtl/uart_sync_flops.v
+        /home/rlk/UVM_Practice/ZAP_test/rtl/uart16550/rtl/uart_tfifo.v
+        /home/rlk/UVM_Practice/ZAP_test/rtl/uart16550/rtl/uart_transmitter.v
+        /home/rlk/UVM_Practice/ZAP_test/rtl/uart16550/rtl/uart_wb.v
+        /home/rlk/UVM_Practice/ZAP_test/rtl/uart16550/rtl/uart_top.v
+        /home/rlk/UVM_Practice/ZAP_test/verification/harness/zap_ram_tb.v
+        /home/rlk/UVM_Practice/ZAP_test/verification/harness/top_tb.sv
+
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_alu_main.sv", 178: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_alu_main.sv", 179: 
+
+*Error* `include file "zap_functions.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_alu_main.sv", 180: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_btb.sv", 44: 
+
+*Error* `include file "zap_functions.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_btb.sv", 45: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_cache_fsm.sv", 32: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_cache_fsm.sv", 122: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_cache_fsm.sv", 123: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_cache.sv", 96: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_cache.sv", 97: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_cache_tag_ram.sv", 35: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_cache_tag_ram.sv", 83: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_core.sv", 143: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_core.sv", 144: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_cp15_cb.sv", 132: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_cp15_cb.sv", 133: 
+
+*Error* `include file "zap_functions.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_cp15_cb.sv", 134: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_dcache_fsm.sv", 30: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_dcache_fsm.sv", 123: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_dcache_fsm.sv", 124: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_dcache.sv", 100: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_dcache.sv", 101: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_decode_main.sv", 186: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_decode_main.sv", 187: 
+
+*Error* `include file "zap_functions.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_decode_main.sv", 188: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_decode.sv", 118: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_decode.sv", 119: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_fetch_main.sv", 88: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_fetch_main.sv", 89: 
+
+*Error* `include file "zap_functions.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_fetch_main.sv", 90: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_issue_main.sv", 268: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_issue_main.sv", 269: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_memory_main.sv", 121: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_memory_main.sv", 122: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_predecode_coproc.sv", 87: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_predecode_coproc.sv", 88: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_predecode_main.sv", 109: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_predecode_main.sv", 110: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_predecode_uop_sequencer.sv", 79: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_predecode_uop_sequencer.sv", 80: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_shifter_main.sv", 177: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_shifter_main.sv", 178: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_shifter_multiply.sv", 68: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_shifter_multiply.sv", 69: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_shifter_shift.sv", 49: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_shifter_shift.sv", 50: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_thumb_decoder_main.sv", 94: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_thumb_decoder_main.sv", 95: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_thumb_decoder.sv", 66: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_thumb_decoder.sv", 67: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_tlb_check.sv", 68: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_tlb_check.sv", 69: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_tlb_fsm.sv", 30: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_tlb_fsm.sv", 96: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_tlb_fsm.sv", 97: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_tlb.sv", 90: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_tlb.sv", 91: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_wb_adapter.sv", 64: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_wb_adapter.sv", 65: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_wb_merger.sv", 68: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_wb_merger.sv", 69: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_writeback.sv", 123: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_writeback.sv", 124: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_top.sv", 98: 
+
+*Error* `include file "zap_localparams.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/zap_top.sv", 99: 
+
+*Error* `include file "uart_defines.v" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/uart16550/rtl/uart_debug_if.v", 85: 
+
+*Error* `include file "uart_defines.v" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/uart16550/rtl/uart_receiver.v", 195: 
+
+*Error* `include file "uart_defines.v" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/uart16550/rtl/uart_regs.v", 225: 
+
+*Error* `include file "uart_defines.v" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/uart16550/rtl/uart_rfifo.v", 146: 
+
+*Error* `include file "uart_defines.v" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/uart16550/rtl/uart_tfifo.v", 140: 
+
+*Error* `include file "uart_defines.v" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/uart16550/rtl/uart_transmitter.v", 150: 
+
+*Error* `include file "uart_defines.v" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/uart16550/rtl/uart_wb.v", 137: 
+
+*Error* `include file "uart_defines.v" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/rtl/uart16550/rtl/uart_top.v", 136: 
+
+*Error* `include file "zap_defines.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/verification/harness/zap_ram_tb.v", 1: 
+
+*Error* `include file "uvm_macros.svh" cannot be read
+"/home/rlk/UVM_Practice/ZAP_test/verification/harness/top_tb.sv", 2: 
+
+*Error* failed to find the package 'uvm_pkg'.
+"/home/rlk/UVM_Practice/ZAP_test/verification/harness/top_tb.sv", 4: 
+
+*Warning* symbol i_clk duplicated
+"/home/rlk/UVM_Practice/ZAP_test/verification/harness/top_tb.sv", 70: 
+
+*Warning* symbol i_reset duplicated
+"/home/rlk/UVM_Practice/ZAP_test/verification/harness/top_tb.sv", 71: 
+Highest level modules:
+top_tb
+
+
+*Warning* port sizes differ (4 vs 32) in port connection (port i_wb_adr)
+"/home/rlk/UVM_Practice/ZAP_test/verification/harness/top_tb.sv", 282: 
+
+*Warning* port sizes differ (4 vs 32) in port connection (port i_wb_adr)
+"/home/rlk/UVM_Practice/ZAP_test/verification/harness/top_tb.sv", 299: 
+
+*Warning* port sizes differ (1 vs 32) in port connection (port i_wb_cyc2)
+"/home/rlk/UVM_Practice/ZAP_test/verification/harness/top_tb.sv", 428: 
+
+*Warning* port sizes differ (1 vs 32) in port connection (port i_wb_stb2)
+"/home/rlk/UVM_Practice/ZAP_test/verification/harness/top_tb.sv", 429: 
+
+*Warning* port sizes differ (1 vs 32) in port connection (port i_wb_we2)
+"/home/rlk/UVM_Practice/ZAP_test/verification/harness/top_tb.sv", 431: 
+
+*Warning* port sizes differ (4 vs 32) in port connection (port i_wb_sel2)
+"/home/rlk/UVM_Practice/ZAP_test/verification/harness/top_tb.sv", 434: 
+Total	76 error(s),   8 warning(s)
